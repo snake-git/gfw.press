@@ -27,6 +27,8 @@ yum install java-1.8.0-openjdk.x86_64 -y ;
 
 yum install squid -y ; 或者 yum instsall 3proxy -y ;
 
+启动squid，启动命令squid -s （Ubuntu中是squid3 -s
+
 第四步：修改连接帐号文件user.txt
 
 每行表示一个帐号，由 端口号+空格+密码 组成，密码长度至少8位，必需包含大小写字母和数字
